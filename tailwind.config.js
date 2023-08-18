@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         qatar_pink: "#9F1A65",
-        qatar_body: "#fff",
+        qatar_body: "#FFFFFF",
         qatar_button: "#D33C57",
         qatar_border: "#DADADA",
         qatar_light: "#FAFAFA",
@@ -31,7 +31,7 @@ module.exports = {
         qatar_light_yellow: "#c39838",
         qatar_brown: "#544B49",
         lighttext: "#393635",
-        boldtext: "#222"
+        boldtext: "#6a6a6a"
       },
       fontFamily: {
         bodyFont: ['Libre Franklin', "sans-serif"],
