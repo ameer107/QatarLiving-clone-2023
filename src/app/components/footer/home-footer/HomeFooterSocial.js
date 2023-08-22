@@ -17,7 +17,7 @@ const HomeFooterSocial = () => {
     return (
         <>
             <div className='w-full bg-qatar_light p-[15px]'>
-                <div className='flex justify-between gap-[40px] max-mdl:flex-col'>
+                <div className='flex justify-between gap-[40px] max-mdl:flex-col max-mdl:mt-5'>
                     <div className='w-full lgl:w-[38%]'>
                         <p className='text-[18px] font-semibold text-boldtext'>Subscribe for our news and updates</p>
                         <div className='flex justify-start items-center gap-4 pt-2 max-mdl:flex-col'>

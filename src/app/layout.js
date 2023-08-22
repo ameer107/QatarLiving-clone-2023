@@ -10,9 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-bodyFont bg-qatar_body">
-        <main className='max-w-screen-maxW m-auto lg:pl-[15px] lg:pr-[15px]'>
           {children}
-        </main>
       </body>
     </html>
   )

@@ -27,6 +27,7 @@ module.exports = {
         qatar_yellow: "#FACC09",
         qatar_green: "#479E6D",
         qatar_blue: "#5a73ad",
+        qatar_dark_bg: "#efedf1",
         qatar_orange: "#DF790E",
         qatar_light_yellow: "#c39838",
         qatar_brown: "#544B49",
