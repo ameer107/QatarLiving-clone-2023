@@ -5,7 +5,7 @@ import QatarLogo from '../../../../public/images/header/qatarliving_logo_white.p
 const Header = () => {
     return (
         <>
-            <div className='flex gap-8 w-full max-h-[90px] lg:bg-qatar_light max-mdl:fixed'>
+            <div className='flex gap-8 w-full max-h-[90px] lg:bg-qatar_light max-mdl:fixed z-10'>
                 <div className='w-[100%] lg:w-[26%] bg-qatar_pink max-lg:flex justify-start items-center gap-2 max-lg:pl-2'>
                     <Link href='' className='hidden max-lg:block cursor-pointer'>
                         <FiMenu className='w-[28px] h-[40px] text-white' />

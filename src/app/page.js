@@ -5,7 +5,9 @@ import HomeFooterSocial from './components/footer/home-footer/HomeFooterSocial'
 import HomeFooterMenu from './components/footer/home-footer/HomeFooterMenu'
 import HomeFooterPages from './components/footer/home-footer/HomeFooterPages'
 import HomeFooterLastblock from './components/footer/home-footer/HomeFooterLastblock'
-import { NewsSection } from './components/homeNewsSection/NewsSection'
+import { TopStories } from './components/homeNewsSection/TopStories'
+import NewsCaption from './components/homeNewsSection/NewsCaption'
+import AllNews from './components/homeNewsSection/AllNews'
 
 export default function Home() {
   return (
@@ -16,8 +18,11 @@ export default function Home() {
         <BottomHeader />
         <NavLinks />
         {/* NewsSection */}
-
-        <NewsSection />
+        <div className='lg:w-[95%] w-full'>
+          <TopStories />
+          <NewsCaption />
+          <AllNews />
+        </div>
 
         {/* Footer */}
         <HomeFooterSocial />

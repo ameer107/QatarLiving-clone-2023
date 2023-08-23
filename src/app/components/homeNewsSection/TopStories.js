@@ -3,10 +3,10 @@ import { homeNewsSection } from '@/app/utils/homeNewsSection'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const NewsSection = () => {
+export const TopStories = () => {
     return (
         <>
-            <div className='lg:w-[95%] w-full max-mdl:pt-[65px]'>
+            <div className='max-mdl:pt-[65px] mb-[15px]'>
                 <div className='lg:flex max-lg:px-[15px]'>
                     {
                         homeNewsSection.newsData.map((news, index) => (
@@ -75,7 +75,7 @@ export const NewsSection = () => {
                                     {
                                         news.sideBarnews.map((news, index) => (
                                             <div key={index} className='flex mb-[10px] pb-[10px] max-lg:gap-[10px] lg:gap-[15px] border-b-[1px] border-qatar_border last:border-b-transparent'>
-                                                <Link href='' className='max-lg:w-[20%] w-[47%]'>
+                                                <Link href='' className='max-lg:w-[20%] w-[47%] max-lg:min-w-[150px] max-lg:max-w-[160px]:'>
                                                     <Image
                                                         src={news.image}
                                                         width={160}
@@ -84,7 +84,7 @@ export const NewsSection = () => {
 
                                                     />
                                                 </Link>
-                                                <div className='max-lg:w-[80%] w-[53%]'>
+                                                <div className='max-lg:w-[70%] w-[53%]'>
                                                     <p className='leading-[15px]'>
                                                         <Link href='' className='mb-[6px] font-semibold text-xs'>
                                                             {news.title}
