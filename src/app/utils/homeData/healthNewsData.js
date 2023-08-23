@@ -121,6 +121,62 @@ export const healthNewsData = {
                     title_href: "",
                 },
             ]
+        },
+        {
+            news_title: "Fashion",
+            medium_box_news: [
+                {
+                    category:"FASHION",
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/10/18/JOSEPH-DUCLOS-Qatar-Living_0.jpg?itok=fvHIb83V",
+                    title: "French luxury leather goods brand Joseph Duclos debuts in Qatar at Galeries Lafayette Doha",
+                    title_href: "/",
+                },
+                {
+                    category:"FASHION",
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/12/11/ALI_BIN_ALI_OPENS_ELIE_SAAB_BOUTIQUE_KATARA_CULTURAL_VILLAGE_QATAR_LIVING.jpg?itok=FgRvY_3T",
+                    title: "Ali Bin Ali Fashion opens ELIE SAAB boutique in Doha’s 21 High Street at Katara Cultural Village",
+                    title_href: "/",
+                },
+            ],
+            small_boxes_news: [
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2023/03/07/NAIL_SALONS_QATAR_NAILS_DONE.jpg?itok=SLHduTXT",
+                    title: "Places to get your nails done in Qatar",
+                    title_href: "/",
+                },
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/09/19/AMICI-DI-MODA-Qatar-Living.jpg?itok=Q1CP1TCg",
+                    title: "Glamorous opening of Mahain Jewelry & Amici Di Moda Stores",
+                    title_href: "/",
+                },
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/08/08/ZARA-PLACE-VENDOME-Qatar-Living.jpg?itok=szmHyzB6",
+                    title: "ZARA opens its most innovative store in a unique standalone villa at Place Vendôme",
+                    title_href: "/",
+                }
+            ],
+            sidebar_news: [
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/04/27/Urban-Outfitters-store-place-vendom-cover-image-qatar-living.jpg?itok=3XNfN2gq",
+                    title: "Urban Outfitters has opened its first Qatar location at Place Vendome",
+                    title_href: "/",
+                },
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/04/21/mzskin-spf-cover-image-qatar-living.jpg?itok=4WQfkeo7",
+                    title: "MZ skin experts share 3 tips on using SPF",
+                    title_href: "/",
+                },
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/04/03/moncler-qatar-living-cover.jpg?itok=sYC6zegc",
+                    title: "Moncler fragrances launch at Salam Stores at the Gate Mall",
+                    title_href: "/",
+                },
+                {
+                    image: "https://files.qatarliving.com/styles/image_h_xlarge_1600x900/s3/post/2022/04/21/Beautifect%20Gold%202.png?itok=Xiq9mi2D",
+                    title: "Introducing the limited edition Gold Beautifect Box",
+                    title_href: "/",
+                },
+            ]
         }
     ]
 }

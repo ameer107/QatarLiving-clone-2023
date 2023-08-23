@@ -11,7 +11,7 @@ const AllNews = () => {
                     {
                         healthNewsData.data.map((news, index) => (
                             <>
-                            <div className='lg:flex mb-[30px]'>
+                            <div key={index} className='lg:flex mb-[30px]'>
                                 <div key={index} className='lg:w-[16.66667%] px-[15px] relative max-mdl:mb-5'>
                                     <div className='lg:ml-[20px] pt-[10px] text-[18px] font-semibold before:border-[2px] before:border-b-0 before:my-[5px] before:w-[40px] before:absolute before:top-[0px] before:border-qatar_brown'>
                                         <Link href='/'>
