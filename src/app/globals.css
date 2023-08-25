@@ -7,23 +7,34 @@
 /* styles/custom-scrollbar.css */
 /* Reduce the scrollbar width */
 .custom-scrollbar::-webkit-scrollbar {
-    width: 3px; /* Adjust the width as needed */
-  }
-  
-  /* Change the scrollbar color */
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #9F1A65; /* Change to your desired color */
-    border-radius: 4px;
-  }
-  
-  /* Style the scrollbar track */
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background-color: #f3f4f6; /* Change to your desired color */
-  }
-  .opened{
-    width: 280px;
-  }
-  .closed{
-    width: 0px;
-  }
-  
+  width: 3px;
+  /* Adjust the width as needed */
+}
+
+/* Change the scrollbar color */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #9F1A65;
+  /* Change to your desired color */
+  border-radius: 4px;
+}
+
+/* Style the scrollbar track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f3f4f6;
+  /* Change to your desired color */
+}
+
+.opened {
+  width: 280px;
+}
+
+.closed {
+  width: 0px;
+}
+
+.upChevron {
+  transform: rotate(180deg);
+}
+.downChevron{
+  transform: rotate(0deg);
+}

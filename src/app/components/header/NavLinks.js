@@ -20,7 +20,7 @@ const NavLinks = () => {
                     </div>
                 </div>
                 <div className='w-[74%]'>
-                    <div className='flex items-center font-semibold text-xs pr-[50px]'>
+                    <div className='flex items-center font-semibold text-xs pr-[50px] px-[5px]'>
                         <ul className='w-[147px] leading-[1.42857rem] text-qatar_blue tracking-wide'>
                             <li><Link href='/apartment'>Apartment</Link></li>
                             <li><Link href='/villa'>Villa</Link></li>
