@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { FiMenu } from 'react-icons/fi'
 import QatarLogo from '../../../../public/images/header/qatarliving_logo_white.png'
 
 
