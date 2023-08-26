@@ -1,9 +1,9 @@
 "use client"
 import Header from '@/app/components/header/Header'
 import BottomHeader from '@/app/components/header/BottomHeader'
-import CategoryLinks from '../components/vehicals/CategoryLinks'
-import FilterArea from '../components/vehicals/FilterArea'
-import VehicalsListing from '../components/vehicals/VehicalsListing'
+import CategoryLinks from '../components/vehicles/CategoryLinks'
+import FilterArea from '../components/vehicles/FilterArea'
+import VehicalsListing from '../components/vehicles/VehicalsListing'
 
 const Vehicals = () => {
   return (
