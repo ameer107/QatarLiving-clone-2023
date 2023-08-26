@@ -8,14 +8,16 @@ import VehicalsListing from '../components/vehicals/VehicalsListing'
 const Vehicals = () => {
   return (
     <>
-      <main className='max-w-screen-maxW m-auto lg:px-[15px] font-bodyFont bg-qatar_body'>
-        {/* Header */}
-        <Header />
-        <BottomHeader color="bg-qatar_green" />
-        <CategoryLinks />
-        <FilterArea />
-        <VehicalsListing />
-      </main>
+      <div className='font-bodyFont bg-[#ebebeb]'>
+        <main className='max-w-screen-maxW m-auto lg:px-[15px]'>
+          {/* Header */}
+          <Header />
+          <BottomHeader color="bg-qatar_green" />
+          <CategoryLinks />
+          <FilterArea />
+          <VehicalsListing />
+        </main>
+      </div>
     </>
   )
 }
