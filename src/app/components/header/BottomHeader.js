@@ -46,7 +46,7 @@ const BottomHeader = ({ color }) => {
 
                         </div>
                         <div className={`text-qatar_green px-[5px] py-[5px] ${pathname === '/vehicals' ? 'bg-qatar_green text-white' : ''} relative`}>
-                            <Link href='/vehicals'>Vehicals</Link>
+                            <Link href='/vehicles'>Vehicals</Link>
                             <div className={`bg-qatar_green -z-10 w-[10px] h-[10px] absolute rotate-45 left-[42%] ${pathname === '/vehicals' ? 'block' : 'hidden'}`}></div>
                         </div>
                         <div className={`text-qatar_yellow  px-[5px] py-[5px] ${pathname === '/classifieds' ? 'bg--qatar_yellow text-white' : ''} relative`}>

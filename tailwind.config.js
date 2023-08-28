@@ -32,7 +32,8 @@ module.exports = {
         qatar_light_yellow: "#c39838",
         qatar_brown: "#544B49",
         lighttext: "#393635",
-        boldtext: "#6a6a6a"
+        boldtext: "#6a6a6a",
+        qatar_skyblue: "rgb(3, 169, 244)"
       },
       fontFamily: {
         bodyFont: ['Libre Franklin', "sans-serif"],

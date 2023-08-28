@@ -4,6 +4,10 @@ import BottomHeader from '@/app/components/header/BottomHeader'
 import CategoryLinks from '../components/vehicles/CategoryLinks'
 import FilterArea from '../components/vehicles/FilterArea'
 import VehicalsListing from '../components/vehicles/VehicalsListing'
+import HomeFooterSocial from '@/app/components/footer/home-footer/HomeFooterSocial'
+import HomeFooterMenu from '@/app/components/footer/home-footer/HomeFooterMenu'
+import HomeFooterPages from '@/app/components/footer/home-footer/HomeFooterPages'
+import HomeFooterLastblock from '@/app/components/footer/home-footer/HomeFooterLastblock'
 
 const Vehicals = () => {
   return (
@@ -16,7 +20,15 @@ const Vehicals = () => {
           <CategoryLinks />
           <FilterArea />
           <VehicalsListing />
+
+          {/* Footer */}
+          <HomeFooterSocial />
+          <HomeFooterMenu />
+          <HomeFooterPages />
         </main>
+        <div className='bg-white'>
+          <HomeFooterLastblock />
+        </div>
       </div>
     </>
   )
